@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /_astro/
+Disallow: /*/
+Allow: /$
+Allow: /posts/
+Allow: /archive/
+Allow: /friends/
+Allow: /about/
+Allow: /guestbook/
+
+Sitemap: https://blog.twilightnya.top/sitemap-index.xml
