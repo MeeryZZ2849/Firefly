@@ -4,7 +4,7 @@ export default async (request, context) => {
   const hostname = url.hostname;
 
   // 需要阻止的 Netlify 默认域名后缀，可以根据需要修改
-  const blockedSuffixes = ['twilight-openlist.netlify.app'];
+  const blockedSuffixes = ['twilight-blog.netlify.app'];
   const isBlocked = blockedSuffixes.some(suffix => hostname.endsWith(suffix));
 
   // 如果匹配到，则返回 404 页面
