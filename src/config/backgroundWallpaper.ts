@@ -39,12 +39,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"https://api.sretna.cn/api/pc.php",
+			"https://t.alcy.cc/ycy",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
-			"https://api.sretna.cn/api/pe.php",
+			"https://t.alcy.cc/mp",
 		],
 	},
 	// Banner模式特有配置
